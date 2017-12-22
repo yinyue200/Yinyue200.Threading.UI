@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadHelper", "ThreadHelper\ThreadHelper.csproj", "{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yinyue200.Threading.UI", "ThreadHelper\Yinyue200.Threading.UI.csproj", "{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
