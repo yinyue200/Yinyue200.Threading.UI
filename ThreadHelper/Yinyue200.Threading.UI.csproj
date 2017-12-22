@@ -1,13 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseUrl>https://github.com/yinyue200/Yinyue200.Threading.UI/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/yinyue200/Yinyue200.Threading.UI/</RepositoryUrl>
     <Description>Provide a Threadhelper like https://docs.microsoft.com/zh-cn/dotnet/api/microsoft.visualstudio.shell.threadhelper</Description>
+    <Authors>yinyue200.com</Authors>
+    <Company>yinyue200.com</Company>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

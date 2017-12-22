@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yinyue200.Threading.UI", "ThreadHelper\Yinyue200.Threading.UI.csproj", "{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yinyue200.Threading.UI.Tests", "Yinyue200.Threading.UI.Tests\Yinyue200.Threading.UI.Tests.csproj", "{3126569A-E4B2-460F-A364-6ABE709DE8A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AEBFE2C-DBE9-4C19-B836-17A7B08587D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3126569A-E4B2-460F-A364-6ABE709DE8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3126569A-E4B2-460F-A364-6ABE709DE8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3126569A-E4B2-460F-A364-6ABE709DE8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3126569A-E4B2-460F-A364-6ABE709DE8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

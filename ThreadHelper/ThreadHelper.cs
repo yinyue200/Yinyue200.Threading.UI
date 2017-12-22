@@ -9,11 +9,22 @@ namespace Yinyue200.Threading.UI
 {
     public class ThreadHelper
     {
-        public static ThreadHelper Generic { get;}
+        public static void Init(ThreadHelper threadHelper,JoinableTaskContext joinableTaskContext,JoinableTaskFactory joinableTaskFactory)
+        {
+            Generic = threadHelper;
+            JoinableTaskFactory = joinableTaskFactory;
+            JoinableTaskContext = joinableTaskContext;
+        }
+        public static void Init(JoinableTaskContext joinableTaskContext)
+        {
+            var context = new JoinableTaskContext();
+            Init(new ThreadHelper(), context, context.Factory);
+        }
+        public static ThreadHelper Generic { get; private set; }
         /// <summary>Gets the singleton <see cref="Microsoft.VisualStudio.Threading.JoinableTaskContext" /> instance for App.</summary>
-        public static JoinableTaskContext JoinableTaskContext { get; }
+        public static JoinableTaskContext JoinableTaskContext { get; private set; }
 
-        public static JoinableTaskFactory JoinableTaskFactory { get; }
+        public static JoinableTaskFactory JoinableTaskFactory { get; private set; }
 
         /// <summary>Determines whether the call is being made on the UI thread.</summary>
         /// <returns>Returns <see langword="true" /> if the call is on the UI thread, otherwise returns <see langword="false" />.</returns>
